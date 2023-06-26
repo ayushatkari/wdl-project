@@ -1,0 +1,252 @@
+header {
+  margin: 0px;
+  padding: 0px;
+}
+.title-bar {
+  display: flex;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.logo-top {
+  margin-top: 6px;
+  margin-left: 12px;
+  margin-right: 12px;
+  width: 82px;
+  height: 22.500px;
+}
+.btn {
+  color: #001e00;
+  font-weight: bold;
+  line-height: 22px;
+  letter-spacing: 0.4px;
+  margin-left: 12px;
+  border: none;
+  background-color: white;
+}
+.search-bar {
+  border: 1px solid #d5e0d5;
+  width: 15%;
+  margin-left: auto;
+  margin-right: 10px;
+  border-color: black;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 20px;
+}
+.log-in {
+ 
+  font-weight: var(#001e00);
+  margin-top: 6px;
+  line-height: 14px;
+  color: #001e00;
+  text-decoration: none;
+}
+.btn-2 {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #108a00;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: inherit;
+}
+.sign-up {
+  
+  font-weight: var(#001e00);
+  margin-top: 6px;
+  line-height: 14px;
+  color:#ffff;
+  text-decoration: none;
+  
+}
+::placeholder {
+  color: #001e00;
+  font-weight: bold;
+}
+.services {
+  display: flex;
+  padding-left: 18px;
+}
+.rmv {
+   font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #001e00;
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.description {
+  display: flex;
+ padding-left: 100px;
+ width: auto;
+ height: px;
+}
+.dis-1 {
+  margin-bottom: 0px;
+  font-family: 'Cardo', serif;
+  font-size: 100px;
+  color: #108a00;
+  font-family: ;
+  line-height: 85px;
+  letter-spacing: -0.035em;
+}
+.dis-2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  letter-spacing: -0.035em;
+  font-size: 30px;
+}
+.dis-3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  letter-spacing: -0.035em;
+  font-size: 20px;
+  margin-top: 50px;
+}
+.design {
+  margin-top: 90px;
+  margin-left: 180px;
+  width: 420px;
+  height: 420px;
+}
+.next {
+  display: flex;
+}
+.lhs {
+  border-radius: 5px;
+  margin-left: 100px;
+  width: 780px;
+  height: 535px;
+  background-color: #13544e ;
+}
+.heading {
+  font-size: 20px;
+  color: #f7faf7;
+  letter-spacing: -0.035em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: ;
+  line-height: 5px;
+  margin-bottom: 0px;
+
+}
+
+.title-line-1 {
+  font-size: 40px;
+  color: #f7faf7;
+  letter-spacing: -0.035em;
+  font-family: 'Cardo', serif;
+  padding-top: 10px;
+  padding-left: 20px;
+  margin-bottom: 0px;
+}
+.title-line-2 {
+  line-height: px;
+  font-size: 40px;
+  color: #14a800;
+  letter-spacing: -0.035em;
+  font-family: 'Cardo', serif;
+ 
+  padding-left: 20px;
+  padding-bottom:0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.sub {
+  letter-spacing: -0.035em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  color: #f7faf7;
+  font-size: 20px;
+  margin-top: 0px;
+}
+.lists {
+  
+  letter-spacing: -0.035em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  color: #f7faf7;
+  font-size: 20px;
+  margin-top: 0px;
+  list-style-type: none;
+  line-height: 35px;
+  
+}
+.btn-m {
+  color: #108a00;
+ padding-left: 18px;
+ padding-right: 18px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+  font-size: 20px;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+.rhs-img {
+  border-radius: 5px;
+  width: 420px;
+  height: 535px;
+}
+.footer {
+  border-radius: 5px;
+  margin-right: 200px;
+  margin-left: 100px;
+  background-color: #03221f;
+}
+
+.sub-footer {
+  
+  display: flex;
+
+}
+.footer-list {
+  padding-left: 60px;
+  padding-right: 60px;
+list-style-type: none;
+line-height: 22px;
+}
+.footer-list-style {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #f7faf7;
+  line-height: 22px;
+}
+.hd {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 60px;
+  padding-left: 60px;
+  font-size: 16px;
+  color: #f7faf7;
+}
+.socials {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  list-style-type: none;
+  display: flex;
+}
+.follow {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  padding-top: 5px;
+  padding-left: 27px;
+  color: white;
+}
+.logo {
+  
+  background-color: #f7faf7;
+  margin-bottom:   38px;;
+  margin-left: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
