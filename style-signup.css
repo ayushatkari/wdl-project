@@ -1,0 +1,56 @@
+.main {
+    width: 562.800px;
+    height: 385.600px;
+    border: 1px solid #282a28;
+    border-radius: 10px;
+    margin-top: 120px;
+    margin-left: 500px;
+
+}
+.heading{
+    text-align: center;
+    letter-spacing: -0.031em;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: 'Cardo', serif;
+}
+.choice-container {
+display: flex;
+margin-left: 50px;
+}
+.intro {
+    margin-top: 45px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.choice-1{
+    padding-left: 5px;
+    padding-right: 5px
+    background-color: ;
+    width: 195.400px;
+    height: 136px;
+    border: 0.5px solid #108a00;
+    border-radius: 10px;
+    margin-left: 20px;
+
+}
+
+.btn {
+    margin-left: 115px;
+    margin-top: 25px;
+    background-color: #108a00;
+    color: white;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+}
+.end {
+    margin-left: 150px;
+    margin-top: 25px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
