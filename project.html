@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>upwork clone.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+    <header>
+       <div class="title-bar">
+            <img src="data:image/png;base64,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" alt="" class="logo-top">
+            <button class="btn">Find Talent</button>
+            <button class="btn">Find Work</button>
+            <button class="btn">Why Upwork</button>
+            <button class="btn">Enterprise</button>
+            <input type="search" placeholder="Search" class="search-bar">
+            <button class="btn"><a href="login.html" class="log-in">Log In</a></button>
+            <button class="btn-2"><a href="signup.html" class="sign-up">Sign Up</a></button>
+       </div>
+       <hr> 
+    </header>
+
+    <main>
+        <div >
+            <ul class="services">
+                <li class="rmv"><a href="https://www.upwork.com/cat/dev-it" class="log-in">Development & IT</a></li>
+                <li class="rmv"><a href="https://www.upwork.com/cat/ai" class="log-in">AI Services</a></li>
+                <li class="rmv"><a href="https://www.upwork.com/cat/design-creative" class="log-in">Design and Creative</a></li>
+                <li class="rmv"><a href="https://www.upwork.com/cat/sales-and-marketing" class="log-in">Sales and Marketing</a></li>
+                <li class="rmv"><a href="https://www.upwork.com/cat/admin-customer-support" class="log-in">Admin & Customer Support</a>  </li>
+            </ul>
+            <div class="description">
+              <div>
+                <p class="dis-1">
+                How work <br>should work
+                </p>
+                <p class="dis-2">Forget the old rules. You can have the best people. <br>
+                    Right now. Right here.
+                </p>
+                <button class="btn-2"><a href="signup.html" class="sign-up">Get Started</a></button>
+                <p class="dis-3">Trusted by <br>
+                   <img src="https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload/c_fit/general/logobar/colored/microsoft.svg" alt="MS img" style="margin-right: 20px;">
+                   <img src="https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload/c_fit/general/logobar/colored/airbnb.svg" alt="Air bnb img" style="margin-right: 20px;">
+                   <img src="https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload/c_fit/general/logobar/colored/bissell.svg" alt="Bissel img" style="margin-right: 20px;">
+                </p>
+
+             </div>
+             <div>
+                <img src="https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload/c_scale,w_580,h_580,f_auto,q_auto,dpr_2.0/brontes/hero/globe@1x.jpg" alt="design" class="design">
+             </div>
+              
+        </div>
+        <div class="next">
+                <div class="lhs">
+                <p>
+                    <p class="heading">
+                    Enterprise Suite
+                    </p>
+                    
+                    <p class="title-line-1">
+                        This is how
+                    </p>
+                    <p class="title-line-2">
+                        good companies <br>find good company.
+                    </p>
+                </p>
+                    <p class="sub">
+                        Access the top 1% of talent on Upwork, and a full suite of hybrid workforce management tools. This is how innovation works now.
+                    </p>
+                    <ul class="lists">
+                        <li><img src="https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload/f_auto,q_auto/brontes/for-enterprise/Skills.svg" alt="">Access expert talent to fill your skill gaps</li>
+                        <li><img src="https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload/f_auto,q_auto/brontes/for-enterprise/Briefcase.svg" alt="">Control your workflow: hire, classify and pay your talent</li>
+                        <li><img src="https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload/f_auto,q_auto/brontes/for-enterprise/Support.svg" alt="">Partner with Upwork for end-to-end support</li>
+                    </ul>
+                    <button class="btn-m">Learn more</button>
+                
+                </div>
+                <div class="rhs">
+                    <img src="https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload/f_auto,q_auto/brontes/for-enterprise/enterprise-2023.jpg" alt="" class="rhs-img">
+                </div>
+    
+    </main>
+    
+
+    <footer>
+        <div class="footer">
+        <div class="sub-footer">
+            <div>
+                <p class="hd">For Clients</p>
+                <ul class="footer-list">
+                    <li class="footer-list-style">How to Hire</li>
+                    <li class="footer-list-style">Talent Marketplace</li>
+                    <li class="footer-list-style">Project Catalog</li>
+                    <li class="footer-list-style">Talent Scout</li>
+                    <li class="footer-list-style">Hire an Agency</li>
+                    <li class="footer-list-style">Enterprise</li>
+                    <li class="footer-list-style">Any Hire</li>
+                    <li class="footer-list-style">Contract-to-Hire</li>
+                    <li class="footer-list-style">Direct Contracts</li>
+                    <li class="footer-list-style">Hire Worldwide</li>
+                    <li class="footer-list-style">Hire in the USA</li>
+                </ul>
+            </div>
+            <div>
+                <p class="hd">For Talent</p>
+                <ul class="footer-list">
+                    <li class="footer-list-style">How to Find Work</li>
+                    <li class="footer-list-style">Direct Contracts</li>
+                    <li class="footer-list-style">Find Freelance Jobs Worldwide</li>
+                    <li class="footer-list-style">Find Freelance Jobs in the USA</li>
+                    
+                </ul>
+            </div>
+            <div>
+                <p class="hd">Resources</p>
+                <ul class="footer-list">
+                    <li class="footer-list-style">Help & Support</li>
+                    <li class="footer-list-style">Success Stories</li>
+                    <li class="footer-list-style">Upwork Reviews</li>
+                    <li class="footer-list-style">Resources</li>
+                    <li class="footer-list-style">Blog</li>
+                    <li class="footer-list-style">Community</li>
+                    <li class="footer-list-style">Affiliate Program</li>
+                    <li class="footer-list-style">Free Business tools</li>
+                    
+                </ul>
+            </div>
+            <div>
+                <p class="hd">Company</p>
+                <ul class="footer-list">
+                    <li class="footer-list-style">About Us</li>
+                    <li class="footer-list-style">Leadership</li>
+                    <li class="footer-list-style">Investor Relations</li>
+                    <li class="footer-list-style">Careers</li>
+                    <li class="footer-list-style">Our Impact</li>
+                    <li class="footer-list-style">Press</li>
+                    <li class="footer-list-style">Contact Us</li>
+                    <li class="footer-list-style">Trust, Safety & Security</li>
+                    <li class="footer-list-style">Modern Slavery Statement</li>
+                    
+                </ul>
+            </div>
+        </div>
+            <div class="last">
+                <ul class="socials">
+                    <li class="follow">Follow Us</li>
+                    <li class="logo"><a href=www.linkedin.com/in/ayush-atkari-146495256"><svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a></li>
+                    <li class="logo"><a href="https://instagram.com/atkari_ayush?igshid=NGExMmI2YTkyZg=="><svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a></li>
+                    <li class="logo"><a href="https://twitter.com/AyushAtkari?t=GRvDX0wUCStdht6TN3JwFw&s=09"><svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"/></svg></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
